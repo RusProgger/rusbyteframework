@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- reset css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- styles css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>RusByteFramework - фреймворк для разработки адаптивный сайтов</title>
+</head>
+<body>
+    <header class="header header-bg">
+        <div class="header__container">
+            <div class="header__logo">
+                <h3 class="header__title">
+                    <a href="index.html">
+                        <span>Rus</span>ByteFramework</h3>
+                    </a>
+                <span class="header__title-desc">фреймфорк для разработки веб приложений.</span>
+            </div>
+
+            <!-- menu adaptive -->
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="docs.html">Документация</a>
+                  <a href="layout.html">Сетка</a>
+                  <a href="contact.html">Контакты</a>
+                </div>
+              </div>
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main-bg main-content">
+            <div class="main__text">
+                <h1 class="main__title">
+                    RusByteFramework - фреймворк для разработки веб приложений.
+                </h1>
+                <a href="#" class="btn-download">Скачать</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__block">
+            <p class="footer__author">&#169; Все права защищены 2023</p>
+            <p class="footer__author"><a href="https://www.facebook.com/addin.whites/" target="_blank">Руслан Вороненко</a></p>
+        </div>
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+</html>
